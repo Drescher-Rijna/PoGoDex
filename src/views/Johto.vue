@@ -24,7 +24,7 @@ import { computed } from '@vue/runtime-core'
       const searchTerm = ref("");
       const filteredPokemon = computed(() => {
         return pokemon.value.filter((pokeman:any) => {
-          return pokeman.name.includes(searchTerm.value)
+          return pokeman.name.includes(searchTerm.value.toLowerCase())
         })
       })
 
