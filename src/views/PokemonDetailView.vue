@@ -63,7 +63,7 @@
         <div class="pokemon_moves">
             <div>
                 <h3>Fast moves</h3>
-                <div class="moves">
+                <div class="moves fast-moves">
                     <div v-for="fastMove in moveset.fastMoves" :key="fastMove">
                         <img class="type_img" :src="'/' + fastMove.type.names.English.toLowerCase()  + '.svg'"/>
                         <span class="attack_name">{{fastMove.id.replace(/_FAST/g, '').replace(/_/g, '_')}}</span>
@@ -352,6 +352,10 @@ export default {
         place-items: left;
         align-items: center;
         margin: 25px 0;
+    }
+
+    .fast-moves div {
+        grid-template-columns: 50px 0fr 1fr;
     }
 
     .moves div:first-child {
