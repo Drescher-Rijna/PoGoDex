@@ -152,8 +152,13 @@ export default {
         }
     }
 
+    @media screen and (min-width: 768px) {
+        .card-img img {
+            filter: grayscale(100%);
+        }
+    }
+
     .card-img img {
-        filter: grayscale(100%);
         position: absolute;
         right: -20px;
         top: -50px;
