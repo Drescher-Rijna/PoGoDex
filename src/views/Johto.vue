@@ -38,6 +38,9 @@ import { computed } from '@vue/runtime-core'
 </script>
 
 <style scoped>
+form input[type="text"] {
+    text-transform: lowercase;
+}
   .pokemon-list {
     display: grid;
     grid-template-columns: 0fr;
