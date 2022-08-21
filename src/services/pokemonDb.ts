@@ -157,7 +157,7 @@ const getPokemon = (id:string, name:string ) => {
         }
 
         pokemon.value.types.map(async (type:any) => {
-            const data = await fetch("http://localhost:8080/types.json")
+            const data = await fetch("https://po-go-dex.vercel.app/types.json")
             let finalData = null
     
             if(!data.ok) {
