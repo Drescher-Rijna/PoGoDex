@@ -418,29 +418,11 @@
         ]
     },
     {
-        "form": "Alola",
-        "pokemon_id": 50,
-        "pokemon_name": "Diglett",
-        "type": [
-            "Ground",
-            "Steel"
-        ]
-    },
-    {
         "form": "Normal",
         "pokemon_id": 50,
         "pokemon_name": "Diglett",
         "type": [
             "Ground"
-        ]
-    },
-    {
-        "form": "Alola",
-        "pokemon_id": 51,
-        "pokemon_name": "Dugtrio",
-        "type": [
-            "Ground",
-            "Steel"
         ]
     },
     {
@@ -2072,22 +2054,7 @@
         ]
     },
     {
-        "form": "S",
-        "pokemon_id": 243,
-        "pokemon_name": "Raikou",
-        "type": [
-            "Electric"
-        ]
-    },
-    {
         "form": "Normal",
-        "pokemon_id": 244,
-        "pokemon_name": "Entei",
-        "type": [
-            "Fire"
-        ]
-    },
-    {
         "pokemon_id": 244,
         "pokemon_name": "Entei",
         "type": [
