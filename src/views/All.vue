@@ -1,6 +1,6 @@
 <template>
   <div class="all">
-    <input v-model="searchTerm" @keyup="filteredPokemon" class="searchfield" type="text" placeholder="Search for a Pokemon" />
+    <input v-model="searchTerm" class="searchfield" type="text" placeholder="Search for a Pokemon" />
     <div  class="pokemon-list">
       <div v-for="pokeman in filteredPokemon" :key="pokeman.id">
         <PokeCard :img="pokeman.image" :title="pokeman.name" :number="pokeman.id" :types="pokeman.types" />
